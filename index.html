@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<div class="container">
+  <button id="toggleTema">🌙</button>
+
+  <h1>Lista de Tarefas</h1>
+
+  <p id="contador"></p>
+
+  <!-- FILTROS -->
+  <div class="filtros">
+    <button onclick="setFiltro('todas')">Todas</button>
+    <button onclick="setFiltro('pendentes')">Pendentes</button>
+    <button onclick="setFiltro('concluidas')">Concluídas</button>
+  </div>
+
+  <!-- INPUT + PRIORIDADE -->
+  <div class="input-area">
+    <input type="text" id="inputTarefa" placeholder="Digite uma tarefa">
+
+    <select id="prioridade">
+      <option value="baixa">🟢 Baixa</option>
+      <option value="media">🟡 Média</option>
+      <option value="alta">🔴 Alta</option>
+    </select>
+
+    <button onclick="adicionarTarefa()">+</button>
+  </div>
+
+  <button class="limpar" onclick="limparTudo()">Limpar tudo</button>
+
+  <ul id="lista"></ul>
+</div>
+
+<script src="JS/app.js"></script>
+</body>
+</html>

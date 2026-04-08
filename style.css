@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #2a2a40;
+  padding: 25px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#contador {
+  color: #ccc;
+}
+
+/* FILTROS */
+.filtros {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.filtros button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #3a3a5a;
+  color: white;
+  cursor: pointer;
+}
+
+.filtros button.ativo {
+  background: #4caf50;
+}
+
+/* INPUT */
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-area input,
+.input-area select {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.input-area button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+/* LIMPAR */
+.limpar {
+  width: 100%;
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #3a3a5a;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  animation: aparecer 0.3s ease;
+}
+
+.concluida {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* PRIORIDADE */
+.alta { color: #ff4d4d; }
+.media { color: #ffd633; }
+.baixa { color: #4caf50; }
+
+/* ANIMAÇÕES */
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes desaparecer {
+  to { opacity: 0; transform: translateX(50px); }
+}
+
+.removendo {
+  animation: desaparecer 0.3s forwards;
+}
+
+/* INPUT DE EDIÇÃO */
+li input {
+  flex: 1;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* TEMA CLARO */
+body.claro {
+  background: #f5f5f5;
+}
+
+body.claro .container {
+  background: white;
+  color: black;
+}
+
+body.claro li {
+  background: #ddd;
+  color: black;
+}
