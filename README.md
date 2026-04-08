@@ -1,38 +1,56 @@
-# 📝 To-Do List
+# 👋 Fala aí! Eu sou o Gabriel
 
-Organize sua vida... ou pelo menos tente 😅
-
-## 🚀 Sobre o projeto
-
-Uma aplicação simples de lista de tarefas feita com JavaScript puro, focada em praticar manipulação de DOM e lógica de programação.
-
-## ✨ Funcionalidades
-
-* Adicionar tarefas 📌
-* Marcar como concluída ✅
-* Remover tarefas 🗑️
-
-## 🛠 Tecnologias utilizadas
-
-* HTML
-* CSS
-* JavaScript
-
-## 🧠 O que eu aprendi
-
-* Manipulação de DOM na prática
-* Eventos (click, submit, etc)
-* Organização de código
-* Lógica aplicada em situações reais
-
-## 🎯 Objetivo
-
-Este projeto foi desenvolvido com foco em aprendizado e evolução como desenvolvedor.
-
-## ⚡ Observação
-
-Se você ignorar essa lista, ela não vai te cobrar... infelizmente 😅
+🎓 Estudante de Ciência da Computação
+💻 Focado em desenvolvimento Back-end
+🚀 Em busca da minha primeira oportunidade em TI
 
 ---
 
-Mais produtivo que eu? Provavelmente sim 😂
+## 🧠 Sobre mim
+
+Sou um desenvolvedor em evolução constante, apaixonado por tecnologia e resolução de problemas.
+
+Atualmente venho construindo projetos próprios para fortalecer minha base em programação e me preparar para o mercado de trabalho.
+
+---
+
+## 🛠 Tecnologias e Ferramentas
+
+* JavaScript
+* Python (intermediário)
+* C/C++ (intermediário)
+* HTML & CSS
+* Lógica de programação
+* Programação Orientada a Objetos
+
+---
+
+## 📂 Projetos
+
+* 📝 To-Do List
+* 🏋️‍♂️ Calculadora de IMC
+* 🔢 Calculadora
+
+---
+
+## 📈 Atualmente estudando
+
+* Node.js
+* Back-end
+* Banco de Dados
+
+---
+
+## 🎯 Objetivo
+
+Conseguir uma oportunidade de estágio em TI onde eu possa aprender, evoluir e contribuir com soluções reais.
+
+---
+
+## ⚡ Curiosidade
+
+Comecei criando projetos simples... e agora estou evoluindo um passo de cada vez 🚀
+
+---
+
+💬 “A prática leva à evolução.”
